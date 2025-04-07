@@ -161,6 +161,25 @@ fetchPinterestData();
 - TikTok
 - Pinterest
 
+## 🧪 Express Router Integration
+
+If you're using Express and want to quickly test the endpoints using the built-in router:
+
+```javascript
+const express = require("express");
+const { router } = require("social-dl");
+
+const app = express();
+const PORT = 3000;
+
+// Use the router at /test
+app.use("/test", router);
+
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
+});
+```
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or want to contribute new features, feel free to fork the repository and create a pull request.
