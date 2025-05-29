@@ -1,6 +1,6 @@
 {
   "name": "social-dl",
-  "version": "1.2.0",
+  "version": "1.0.34",
   "description": "A package to download media from social platforms like Instagram, Facebook, Twitter, Snapchat, TikTok, Pinterest etc.",
   "main": "index.js",
   "files": [
@@ -28,6 +28,6 @@
     "axios": "^1.9.0",
     "cheerio": "^1.1.0",
     "express": "^5.1.0",
-    "javascript-obfuscator": "^4.1.1"
+    "firebase-admin": "^13.4.0"
   }
 }
